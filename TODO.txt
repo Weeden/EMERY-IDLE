@@ -1,0 +1,5 @@
+***EMERY IDLE BY JAXARIAH***
+As of V.05 I want to clean up the code, fix the current bugs, and add some beter game play and real logic.
+1. Add Local saving and maybe profiles/accounts to save progress.
+2. Create "Dashboard" landing page that allows character creation. 
+3. fix tabs that are all loading at the same time.... had this fixed in a version i lost. 

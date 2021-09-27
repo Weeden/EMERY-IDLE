@@ -1,0 +1,162 @@
+body { /* no . means element type */
+  background-image: url('backgrounds/background.jpg');
+  background-repeat: no-repeat;
+  background-size:  auto;
+  text-align: center; /* text-align centers text AND children 
+*/
+	
+}
+
+* { /* * applies to all elements, use with caution */
+  outline: none; 			
+}
+
+h1 {
+  text-decoration: overline;
+}
+
+h2  {
+  text-decoration-color: cyan;
+}
+
+h3  {
+  text-decoration-color: red;
+}
+
+h4  {
+  text-decoration-color: blue;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Green */
+.success {
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.info {
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  color: rgb(100, 76, 45);
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+
+.rock {
+  color: rgb(0, 0, 0);
+}
+
+.rock:hover {
+  background: rgb(59, 59, 59);
+}
+
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
+
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #888888;
+  border-radius: 50%;
+  border-top: 16px solid #274558;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+.iconLogs {
+    background: url('icons/log.jpg');
+    height: 20px;
+    width: 20px;
+    display: block;  
+  }
