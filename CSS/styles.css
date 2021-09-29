@@ -1,10 +1,4 @@
-.gold-mined {
-  color: rgb(12, 128, 12);
-}
 
-.rock-mined {
-  color: rgb(0, 0, 0);
-}
 
 body { /* no . means element type */
   background-image: url('../backgrounds/forest.jpg');
@@ -13,8 +7,20 @@ body { /* no . means element type */
   background-size:  auto;
   text-align: center; /* text-align centers text AND children 
 */
-	
 }
+
+#shopMenu{display: none;}
+#boatShop{display: none;}
+#miscShop{display: none;}
+#backpackMenu{display: none;}
+#petShop{display: none;}
+#searchMenu{display: none;}
+#mapMenu{display: none;}
+#forest{display: none;}
+#mineMenu{display: none;}
+#exchangeMenu{display: none;}
+#seaMenu{display: none;}
+#coinMenu{display: none;}
 
 * { /* * applies to all elements, use with caution */
   outline: none; 			
@@ -139,17 +145,6 @@ h4  {
 .logs:hover {
   background:rgb(145, 84, 5);
   border-radius: 12px;
-}
-
-#myProgress {
-  width: 100%;
-  background-color: grey;
-}
-
-#myBar {
-  width: 1%;
-  height: 30px;
-  background-color: green;
 }
 
 /* Center the loader */
@@ -343,4 +338,62 @@ h4  {
   background-color: #4d4d4d;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+ .workerButton {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #e7bd01;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.workerButton:active {
+  background-color: #f1b40b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#myProgress1 {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar1 {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
+
+#myProgress2 {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar2 {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(73, 73, 73);
+}
+
+#myProgress3 {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar3 {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(73, 73, 73);
+}
+
+#container1 {
+  margin: 20px;
+  width: 400px;
+  height: 8px;
 }
